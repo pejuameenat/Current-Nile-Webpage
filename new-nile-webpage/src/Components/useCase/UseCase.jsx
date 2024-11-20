@@ -14,13 +14,17 @@ const UseCase = () => {
           </p>
         </div>
         <article className=" mt-16">
+          <div className="hidden md:grid md:grid-cols-2 pt-6 border-b border-black">
+            <h2 className="text-[32px] pb-4 text-pry3 font-semibold">YOUR BUSINESS GOAL</h2>
+            <h2 className="text-[32px] pb-4 text-pry3 font-semibold">HOW TO SOLVE IT WITH NILE</h2>
+          </div>
           {useCases.map((item) => {
             return (
               <div
                 className="grid md:grid-cols-2 pt-6 border-b border-black"
                 key={item.id}
               >
-                <h4 className="text-2xl md:text-[32px]">{item.title}</h4>
+                <h4 className="text-2xl md:text-[32px] text-pry3">{item.title}</h4>
                 <div className="">
                   <li className="mb-4 md:text-[20px]">{item.description1}</li>
                   <li className="mb-4 md:text-[20px]">{item.description2}</li>
