@@ -3,11 +3,9 @@ import joinOthers from '../assets/join-others.svg'
 import logoTrusted from '../assets/logo-trusted-companies.svg'
 import firstFeature from '../assets/first-feature.svg'
 import secondFeature from '../assets/second-feature.svg'
-import thirdFeature from '../assets/third-feature.svg'
+import thirdFeature from '../assets/mobile-mockup.svg'
 import emailArrow from "../assets/email-arrow-left.svg";
 import phone from "../assets/phone-forward.svg";
-import face1 from '../assets/Face3.svg'
-import face2 from '../assets/Face4.svg'
 import inventory from '../assets/inventory.svg'
 import payment from '../assets/payment.svg'
 import store from '../assets/store.svg'
@@ -35,6 +33,11 @@ import nileLogo from '../assets/nile-green.svg'
 import menu from '../assets/menu.svg'
 import close from '../assets/close.svg'
 import location from '../assets/location.svg'
+import stephen from '../assets/stephen.jpeg'
+import tadFarm from '../assets/tadfarm.jpg'
+import wuraola from '../assets/wuraola.jpeg'
+import donBaci from '../assets/don-baci.jpeg'
+import hashim from '../assets/hashim.jpeg'
 
 
-export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone , face1, face2, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location}
+export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim}

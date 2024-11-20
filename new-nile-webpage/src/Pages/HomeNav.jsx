@@ -1,9 +1,9 @@
 import {Nav} from "../Components";
 import { Outlet } from "react-router-dom";
-// import {ScrollToTop} from '../components'
+import {ScrollToTop} from '../Components'
 const HomeNav = () => {
     return <>
-        {/* <ScrollToTop/> */}
+        <ScrollToTop/>
         <Nav/>
         <Outlet/>
     </>

@@ -38,8 +38,8 @@ body{
     @apply block font-bold mb-4 mt-8;
   }
   .inputs {
-    @apply bg-pry1 outline-none rounded-sm focus:outline focus:outline-1 focus:outline-pry3
-    p-3 w-full shadow-md shadow-myCustomColor-lighterGreen;
+    @apply bg-[#FBFBFB] outline-none rounded-md focus:outline focus:outline-1 focus:outline-pry3
+    p-3 w-full shadow-md;
   }
   .flex-container {
     @apply lg:flex justify-between;

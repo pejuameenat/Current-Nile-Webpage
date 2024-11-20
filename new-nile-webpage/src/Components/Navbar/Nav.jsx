@@ -17,7 +17,7 @@ const Nav = () => {
       }`}
     >
       <div className="text-primary w-[85%] max-w-[1000px] mx-auto">
-        <div className="flex justify-between  lg:gap-24 items-center py-3">
+        <div className="flex justify-between lg:gap-24 items-center py-3">
           <NavLink to="/" id="home">
             <img src={nileLogo} alt="nile-logo" className="logo-width  " />
           </NavLink>
@@ -40,25 +40,19 @@ const Nav = () => {
             <div className="py-7 lg:p-0 lg:flex">
               <ul className="lg:flex-container lg:gap-x-4 xl:gap-x-16">
                 {navLinksItem.map((item) => {
-                  const { id, url, text, icon } = item;
+                  const { id, url, text} = item;
                   const isActive = currentElement === id;
                   return (
                     <div
                       key={id}
                       className="relative rounded-lg mt-7 lg:m-0 p-3 lg:p-0 border-b lg:border-0 flex items-center gap-3 border-black"
                     >
-                      {/* <img
-                        src={icon}
-                        alt={text}
-                        loading="lazy"
-                        className="w-8 lg:hidden"
-                      /> */}
                       <li
                         className={
                           "navLink font-medium p-1 text-pry3 hover:bg-primary hover:text-pry2 transitions rounded-md"
                         }
                       >
-                        <NavLink to={url}>{text}</NavLink>
+                        <NavLink to={url} target="_blank" rel='noopener noreferrer'>{text}</NavLink>
                       </li>
                     </div>
                   );
@@ -68,9 +62,9 @@ const Nav = () => {
           </nav>
           <button
             type="button"
-            className="hidden p-2 rounded-xl bg-primary text-pry1 font-bold transitions hover:bg-slate-950 btn-join-waitList lg:block lg:w-48 lg:h-14"
+            className="hidden p-2 rounded-xl bg-primary text-pry1 transitions hover:bg-slate-950 btn-join-waitList lg:block lg:w-48 lg:h-14"
           >
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer">
               Login/SignUp
             </a>
           </button>
@@ -87,7 +81,7 @@ const Nav = () => {
                 className="text-gray-600 text-3xl"
                 onClick={() => dispatch(closeNavbar())}
               >
-                <img src={close} loading="lazy" className="" />
+                <img src={close} loading="lazy" className="" alt='close icon' />
               </button>
             </div>
 

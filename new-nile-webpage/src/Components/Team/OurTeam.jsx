@@ -17,8 +17,9 @@ const OurTeam = () => {
                 <div className="flex gap-2">
                   <img
                     src={img}
-                    className="w-[50px] h-[50px]"
+                    className="w-[50px] h-[50px] rounded-full"
                     alt={`image of ${name}`}
+                    loading="lazy"
                   />
                   <div className="">
                     <h4 className="text-[24px] md:text-[32px]">{name}</h4>
@@ -34,7 +35,7 @@ const OurTeam = () => {
 ]"
         >
           <div className="flex gap-2">
-            <img src={you} className="w-[50px] h-[50px]" alt={`image`} />
+            <img src={you} className="w-[50px] h-[50px]" loading="lazy" alt={` pointing image favicon`} />
             <div className="">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIZDEjAV2b2jUORDrJZhibzD3iQ9HhCmEe3gDUa7-Fv4CuIQ/viewform?usp=sf_link">
                 <h4 className="text-[24px] md:text-[32px]">You</h4>
