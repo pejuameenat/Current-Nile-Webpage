@@ -87,7 +87,7 @@ const ContactPage = () => {
             )}
             <button
               type="submit"
-              className="mx-auto mt-14 block rounded-xl font-semibold text-pry1 py-1 w-44 h-12 bg-primary active:bg-myCustomColor-light hover:bg-myCustomColor-light transitions"
+              className="mx-auto mt-14 block rounded-xl font-semibold text-pry1 py-1 w-44 h-12 bg-primary active:bg-black hover:bg-black transitions"
             >
               {" "}
               Send Message

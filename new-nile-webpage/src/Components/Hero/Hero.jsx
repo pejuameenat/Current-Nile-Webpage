@@ -1,7 +1,7 @@
 import { hero, joinOthers } from "../../assets";
 const Hero = () => {
   return (
-    <section className="px-4 py-6 md:py-0 md:px-0 md:my-[72px]">
+    <section id="hero" className="px-4 py-6 md:py-0 md:px-0 md:my-[72px]">
       <div className="container lg:w-[85%] max-w-[1311px] mx-auto lg:flex items-start
       ">
         <div className="md:w-[47%]">
@@ -12,7 +12,7 @@ const Hero = () => {
             The AI-powered workspace for businesses—organizing finances,
             inventory, and operations seamlessly.
           </p>
-          <button type="button" className="text-pry1 p-4 bg-primary rounded-2xl md:w-[237px] md:h-[61px] w-[205px] h-[60px]">
+          <button type="button" className="text-pry1 p-4 bg-primary rounded-2xl md:w-[237px] md:h-[61px] w-[205px] h-[60px] hover:bg-black transitions">
             <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer"> Get Started - its free</a>
             
           </button>
