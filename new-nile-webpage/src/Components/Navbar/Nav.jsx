@@ -39,7 +39,7 @@ const Nav = () => {
           <nav className="lg:flex hidden grow">
             <div className="py-7 lg:p-0 lg:flex">
               <ul className="lg:flex-container lg:gap-x-4 xl:gap-x-16">
-                {navLinksItem.map((item) => {
+                {navLinksItem.map((item,index) => {
                   const { id, url, text} = item;
                   const isActive = currentElement === id;
                   return (
@@ -51,8 +51,10 @@ const Nav = () => {
                         className={
                           "navLink font-medium p-1 text-pry3 hover:bg-primary hover:text-pry2 transitions rounded-md"
                         }
-                      >
-                        <NavLink to={url} target="_blank" rel='noopener noreferrer'>{text}</NavLink>
+                      >{
+                          index === 2 ? <NavLink to={url} target="_blank" rel='noopener noreferrer'>{text}</NavLink> : <NavLink to={url}
+                          >{text}</NavLink>
+                      }
                       </li>
                     </div>
                   );

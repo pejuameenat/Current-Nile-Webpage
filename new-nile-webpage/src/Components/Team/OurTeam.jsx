@@ -37,7 +37,7 @@ const OurTeam = () => {
           <div className="flex gap-2">
             <img src={you} className="w-[50px] h-[50px]" loading="lazy" alt={` pointing image favicon`} />
             <div className="">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIZDEjAV2b2jUORDrJZhibzD3iQ9HhCmEe3gDUa7-Fv4CuIQ/viewform?usp=sf_link">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIZDEjAV2b2jUORDrJZhibzD3iQ9HhCmEe3gDUa7-Fv4CuIQ/viewform?usp=sf_link" target='_blank' rel=''>
                 <h4 className="text-[24px] md:text-[32px]">You</h4>
               </a>
               <span className="mt-2">Join the team</span>

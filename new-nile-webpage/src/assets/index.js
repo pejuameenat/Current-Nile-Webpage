@@ -38,6 +38,7 @@ import tadFarm from '../assets/tadfarm.jpg'
 import wuraola from '../assets/wuraola.jpeg'
 import donBaci from '../assets/don-baci.jpeg'
 import hashim from '../assets/hashim.jpeg'
+import ali from '../assets/Ali.jpeg'
 
 
-export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim}
+export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim,ali}

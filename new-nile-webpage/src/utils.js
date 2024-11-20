@@ -24,7 +24,7 @@ import {
   rachaelImg,
   you,
   danielImg, plusIcon,
-  location,stephen,donBaci,tadFarm, wuraola, hashim
+  location,stephen,donBaci,tadFarm, wuraola, hashim,ali
 } from "./assets";
 
 
@@ -161,14 +161,14 @@ export const values = [
 
 export const teams = [
   { id: 0, name: "Winner Oyebanjo", position: "CEO", img: winnerImg },
-  { id: 1, name: "Daniel Owodunni", position: "Co-founder", img: danielImg },
+  { id: 1, name: "Daniel Owodunni", position: "CTO", img: danielImg },
   { id: 2, name: "Abdulkadir Balogun", position: "COO", img: balogunImg },
-  { id: 3, name: "Oke Rachael", position: "Product", img: rachaelImg },
+  { id: 3, name: "Oke Rachael", position: "Product Officer", img: rachaelImg },
   {
     id: 4,
-    name: "Alli Muhammed S.",
+    name: "Ali Muhammed S.",
     position: "Frontend Developer",
-    img: you,
+    img: ali,
   },
   {
     id: 5,
