@@ -28,7 +28,7 @@ const UseCase = () => {
                 <div className="">
                   <li className="mb-4 md:text-[20px]">{item.description1}</li>
                   <li className="mb-4 md:text-[20px]">{item.description2}</li>
-                  <li className="md:text-[20px]">{item?.description3}</li>
+                  <li className="mb-4 md:text-[20px]">{item?.description3}</li>
                 </div>
               </div>
             );

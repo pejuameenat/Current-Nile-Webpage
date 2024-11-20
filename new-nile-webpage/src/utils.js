@@ -127,7 +127,7 @@ export const socialIcons = [
   { id: 2, img: youtube, href: "www.youtube.com/@officialniletech " },
   { id: 3, img: tiktok, href: " https://www.tiktok.com/@nile.hq" },
   { id: 4, img: linkedIn, href: " https://www.linkedin.com/search/results/companies/?keywords=nile%20technologies&origin=SWITCH_SEARCH_VERTICAL&sid=Tas" },
-  { id: 5, img: instagram, href: "instagram.com/nile.hq" },
+  { id: 5, img: instagram, href: "https://instagram.com/nile.hq" },
 ];
 
 export const aboutImages = [

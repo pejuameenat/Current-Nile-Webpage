@@ -16,7 +16,7 @@ const Nav = () => {
           : "bg-pry1 py-2 md:px-0 sticky top-0 z-20 w-full overflow-x-hidden"
       }`}
     >
-      <div className="text-primary w-[85%] max-w-[1000px] mx-auto">
+      <div className="text-primary w-[85%] max-w-[1100px] mx-auto">
         <div className="flex justify-between lg:gap-24 items-center py-3">
           <NavLink to="/" id="home">
             <img src={nileLogo} alt="nile-logo" className="logo-width  " />
@@ -36,9 +36,9 @@ const Nav = () => {
             />
           </button>
           {/* Navbar Links */}
-          <nav className="lg:flex hidden grow">
+          <nav className="lg:flex hidden mx-auto">
             <div className="py-7 lg:p-0 lg:flex">
-              <ul className="lg:flex-container lg:gap-x-4 xl:gap-x-16">
+              <ul className="lg:flex-container lg:gap-x-4 xl:gap-x-12">
                 {navLinksItem.map((item,index) => {
                   const { id, url, text} = item;
                   const isActive = currentElement === id;
