@@ -24,7 +24,7 @@ const [openFaqs, setOpenFaqs] = useState({id:false});
             const { id, icon, heading, text } = item;
             const isOpen = openFaqs[id];
             return (
-              <div className="bg-pry1 flex p-4 h-fit justify-between
+              <div className="bg-pry1 flex p-4 min-h-fit justify-between
               " key={id}>
                 <div>
                   <h4 className="text-xl md:text-2xl font-medium">{heading}</h4>
