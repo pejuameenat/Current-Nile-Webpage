@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style:none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+.border-inspect{
+  border:2px solid red;
+}
+
+@layer components {
+  .span-headings {
+    @apply text-primary font-semibold;
+  }
+  .section-headers{
+    @apply font-semibold text-[40px] leading-[48px] my-2
+  }
+  .section-header-container{
+    @apply max-w-[900px] mx-auto text-center
+  }
+  .transitions {
+    @apply transition-all delay-100 duration-200 ease-in;
+  }
+  .labels {
+    @apply block font-bold mb-4 mt-8;
+  }
+  .inputs {
+    @apply bg-pry1 outline-none rounded-sm focus:outline focus:outline-1 focus:outline-pry3
+    p-3 w-full shadow-md shadow-myCustomColor-lighterGreen;
+  }
+  .flex-container {
+    @apply lg:flex justify-between;
+  }
+  .logo-width {
+    @apply w-20 lg:w-28;
+  }
+}

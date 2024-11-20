@@ -1,0 +1,39 @@
+import { useCases } from "../../utils";
+
+const UseCase = () => {
+  return (
+    <section className="py-6 lg:py-14 px-4 md:px-0 my-[72px]">
+      <div className="container md:w-[85%] max-w-[1311px] mx-auto">
+        <div className="text-center">
+          <span className="span-headings">USE CASE</span>
+          <h3 className="section-headers">
+            You’re in control of your Business
+          </h3>
+          <p className="text-pry3 md:text-2xl font-medium">
+            How Nile would optimize your operations.
+          </p>
+        </div>
+        <article className=" mt-16">
+          {useCases.map((item) => {
+            return (
+              <div
+                className="grid md:grid-cols-2 pt-6 border-b border-black"
+                key={item.id}
+              >
+                <h4 className="text-2xl md:text-[32px]">{item.title}</h4>
+                <div className="">
+                  <li className="mb-4 md:text-[20px]">{item.description1}</li>
+                  <li className="mb-4 md:text-[20px]">{item.description2}</li>
+                  <li className="md:text-[20px]">{item?.description3}</li>
+                </div>
+              </div>
+            );
+          })}
+        </article>
+        <button type="button" className="bg-primary text-pry1 p-4 rounded-lg block mx-auto mt-6" >Get Started- its free</button>
+      </div>
+    </section>
+  );
+};
+
+export default UseCase;
