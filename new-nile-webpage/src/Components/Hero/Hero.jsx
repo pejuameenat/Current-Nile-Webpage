@@ -13,7 +13,7 @@ const Hero = () => {
             inventory, and operations seamlessly.
           </p>
           <button type="button" className="text-pry1 p-4 bg-primary rounded-2xl md:w-[237px] md:h-[61px] w-[205px] h-[60px]">
-            <a href="http://localhost:5173/" target="_blank" rel="noopener noreferrer"> Get Started - its free</a>
+            <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer"> Get Started - its free</a>
             
           </button>
           <div className="mt-4 flex gap-2">

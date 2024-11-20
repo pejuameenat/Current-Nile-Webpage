@@ -34,7 +34,7 @@ const UseCase = () => {
             );
           })}
         </article>
-        <button type="button" className="bg-primary text-pry1 p-4 rounded-lg block mx-auto mt-6" >Get Started- its free</button>
+        <button type="button" className="bg-primary text-pry1 p-4 rounded-lg block mx-auto mt-6" ><a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer">Get Started- its free</a> </button>
       </div>
     </section>
   );
