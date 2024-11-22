@@ -26,7 +26,7 @@ import balogunImg from '../assets/balogun.svg'
 import danielImg from '../assets/daniel.svg'
 import you from '../assets/you.svg'
 import placeholder from '../assets/placeholder.svg'
-import rachaelImg from '../assets/rachael.svg'
+import rachaelImg from '../assets/rachael.jpg'
 import plusIcon from '../assets/plus-icon.svg'
 import minusIcon from '../assets/subtract-icon.svg'
 import nileLogo from '../assets/nile-green.svg'
@@ -39,6 +39,7 @@ import wuraola from '../assets/wuraola.jpeg'
 import donBaci from '../assets/don-baci.jpeg'
 import hashim from '../assets/hashim.jpeg'
 import ali from '../assets/Ali.jpeg'
+import aminatImg from '../assets/Aminat.jpeg'
 
 
-export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim,ali}
+export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim,ali,aminatImg}

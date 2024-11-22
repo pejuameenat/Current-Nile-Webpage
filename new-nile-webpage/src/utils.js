@@ -24,7 +24,7 @@ import {
   rachaelImg,
   you,
   danielImg, plusIcon,
-  location,stephen,donBaci,tadFarm, wuraola, hashim,ali
+  location,stephen,donBaci,tadFarm, wuraola, hashim,ali,aminatImg
 } from "./assets";
 
 
@@ -33,7 +33,7 @@ export const navLinksItem = [
   // { id: 0, text: "Home", url: "/",   },
   { id: 2, text: "Features", url: "/#features" },
   { id: 1, text: "About us", url: "/about",  },
-  { id: 3, text: "Blog", url: "https://medium.com/@winnerbanjochannel",   },
+  { id: 3, text: "Blog", url: "https://medium.com/@nile.hq",   },
   { id: 4, text: "Contact us", url: "/contact",  },
 ]
 export const aboutNile = [
@@ -163,7 +163,7 @@ export const teams = [
   { id: 0, name: "Winner Oyebanjo", position: "CEO", img: winnerImg },
   { id: 1, name: "Daniel Owodunni", position: "CTO", img: danielImg },
   { id: 2, name: "Abdulkadir Balogun", position: "COO", img: balogunImg },
-  { id: 3, name: "Oke Rachael", position: "Product Officer", img: rachaelImg },
+  { id: 3, name: "Agu Racheal", position: "Product Officer", img: rachaelImg },
   {
     id: 4,
     name: "Ali Muhammed S.",
@@ -174,7 +174,7 @@ export const teams = [
     id: 5,
     name: "Aminat Sulaimon",
     position: "Frontend Developer",
-    img: you,
+    img: aminatImg,
   },
   {
     id: 6,
