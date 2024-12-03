@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HomeNav, Home, About, Contact } from './Pages'
+import { HomeNav, Home, About, Contact, PricingPage } from './Pages'
 import{Features} from './Components'
 const routes = createBrowserRouter([{
   path: "/", element: <HomeNav />, children: [
@@ -10,8 +10,8 @@ const routes = createBrowserRouter([{
       element:<About/>
     },
     {
-      path:'/#features',
-      element:<Features/>
+      path:'Pricing',
+      element:<PricingPage/>
     },
     
     {

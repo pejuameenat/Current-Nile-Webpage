@@ -31,9 +31,9 @@ import {
 export const navLinksItem = [
   
   // { id: 0, text: "Home", url: "/",   },
-  { id: 2, text: "Features", url: "/#features" },
   { id: 1, text: "About us", url: "/about",  },
-  { id: 3, text: "Blog", url: "https://medium.com/@nile.hq",   },
+  { id: 2, text: "Blog", url: "https://medium.com/@nile.hq",   },
+  { id: 3, text: "Pricing", url: "/pricing" },
   { id: 4, text: "Contact us", url: "/contact",  },
 ]
 export const aboutNile = [
@@ -163,7 +163,7 @@ export const teams = [
   { id: 0, name: "Winner Oyebanjo", position: "CEO", img: winnerImg },
   { id: 1, name: "Daniel Owodunni", position: "CTO", img: danielImg },
   { id: 2, name: "Abdulkadir Balogun", position: "COO", img: balogunImg },
-  { id: 3, name: "Agu Racheal", position: "Product Officer", img: rachaelImg },
+  { id: 3, name: "Racheal Agu", position: "Product Officer", img: rachaelImg },
   {
     id: 4,
     name: "Ali Muhammed S.",
@@ -244,3 +244,180 @@ export const faqs = [
   {id:4,  heading:'How can I get started with Nile ?', text:'Getting started is easy! Sign up on our website, choose a plan that suits your needs, and follow the onboarding steps to set up your workspace.',icon:plusIcon},
   {id:5,  heading:'Is Nile suitable for businesses with no prior tech experience?', text:'Yes, Nile is user-friendly and designed with simplicity in mind. Its intuitive interface ensures that even those with minimal tech experience can navigate and benefit from the platform.',icon:plusIcon},
 ]
+
+
+export const plans = [
+  {
+    id: 1,
+    head: "Free Plan",
+    monthly: 0,
+    yearly: 0,
+    text: ``, 
+  },
+  {
+    id: 2,
+    head: "Pro Plan",
+    monthly: 15000,
+    yearly: 55000,
+    text: `Everything in freemium plan plus:`
+   
+  },
+  {
+    id: 3,
+    head: "Premium Plan",
+    monthly: 25000,
+    yearly: 55000,
+    text: "Everything in pro plan plus:",
+  },{
+    id: 4,
+    head: "Enterprise Plan",
+    monthly: 'Custom Price',
+    yearly: "Custom Price",
+    text: "Everything in premium plan plus:",
+  },
+];
+export const pricing = [
+  {
+    id: 1,
+    textArray: [
+      {
+        id: 1,
+        text: "Manage up to 100 products effortlessly.",
+      },
+      {
+        id: 2,
+        text: "Maintain records of up to 50 contacts.",
+      },
+       
+      {
+        id: 3,
+        text: "Process and monitor up to 50 monthly orders.",
+      },
+      {
+        id: 4,
+        text: "Monitor expenses and revenues",
+      },
+      {
+        id: 5,
+        text: "Access simplified performance metrics.",
+      },
+      {
+        id: 6,
+        text: "Generate basic monthly summaries",
+      },
+      {
+        id: 7,
+        text: "Feature your business on Nile’s website directory.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    textArray: [
+      {
+        id: 1,
+        text: "Unlimited Product and Customer Records: Scale without limits",
+      },
+      {
+        id: 2,
+        title:'Pro Plan',
+        text: "Advanced Analytics: Gain deeper insights into trends and sales.",
+      },
+      {
+        id: 3,
+        text: "Generate professional invoices in seconds",
+      },
+      {
+        id: 4,
+        text: "Track and monitor team performance",
+      },
+      {
+        id: 5,
+        text: "Cash Flow and Financial Reports: Detailed monthly breakdowns",
+      },
+      {
+        id: 6,
+        text: "Build a professional website that links seamlessly to your custom domain.",
+      },
+      {
+        id: 7,
+        text: "Easily connect your existing site for seamless management.",
+      },
+      {
+        id: 8,
+        text: "Multi-User Accounts: Grant access to up to 3 team members.",
+      },
+      {
+        id: 9,
+        text: "Priority Support: Response time within 24 hours.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Premium Plan',
+    price: 25000,
+    textArray: [
+      {
+        id: 1,
+        text: "Unlimited Orders and Advanced Inventory Tools: Manage high-volume operations.",
+      },
+      {
+        id: 2,
+        text: "Comprehensive Financial Management: Track, predict, and manage cash flow effortlessly.",
+      },
+      {
+        id: 3,
+        text: "Virtual Wallets and Payouts: Simplify payment handling for customers and partners.",
+      },
+      {
+        id: 4,
+        text: "Budgeting Tools: Set and monitor financial goals effectively.",
+      },
+      {
+        id: 5,
+        text: "API Access: Integrate Nile seamlessly with other platforms.",
+      },
+      {
+        id: 6,
+        text: "Custom Staff Roles: Define and manage team responsibilities.",
+      },
+      {
+        id: 7,
+        text: "Advanced Shipping Access: Integrate with 50+ couriers for streamlined deliveries.",
+      },
+      {
+        id: 8,
+        text: "Dedicated Account Manager: Personalized assistance tailored to your needs.",
+      },
+    ],
+  }, {
+    id: 4,
+    title: 'Enterprise Plan',
+    price: 'Customer Price',
+    textArray: [
+      {
+        id: 1,
+        text:"Customizable Solutions: Tailored tools and services to match your business needs.",
+      },
+      {
+        id: 2,
+        text: "White-Label Options: Brand Nile’s software as your own.",
+      },
+      {
+        id: 3,
+        text: "Enhanced Security: Advanced encryption and dedicated servers.",
+      },
+      {
+        id: 4,
+        text: "Training & Onboarding: Comprehensive onboarding for your team.",
+      },
+      {
+        id: 5,
+        text: "Dedicated Financial Advisory: Expert consultation to optimize your finances.",
+      },
+     
+    ],
+  },
+  
+];
