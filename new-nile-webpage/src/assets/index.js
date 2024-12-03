@@ -41,5 +41,6 @@ import hashim from '../assets/hashim.jpeg'
 import ali from '../assets/Ali.jpeg'
 import aminatImg from '../assets/Aminat.jpeg'
 import curved from './curved.svg'
+import nilewhite from './nile-logo-thin-white.png'
 
-export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim,ali,aminatImg, curved}
+export {hero, joinOthers,logoTrusted,firstFeature,secondFeature,thirdFeature, emailArrow,phone, inventory, payment,store,group, finance, deskCustomer,instagram,tiktok,facebook,linkedIn,youtube,twitter, maskGroup,trendyHipster,curlyHairGirl, winnerImg, balogunImg, you, placeholder, rachaelImg, danielImg, plusIcon,minusIcon, nileLogo,menu,close, location,stephen,donBaci,tadFarm, wuraola,hashim,ali,aminatImg, curved,nilewhite}

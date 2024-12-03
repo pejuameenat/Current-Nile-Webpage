@@ -8,7 +8,7 @@ const PricingPage = () => {
   return (
     <>
     <section  id="pricingSection"className="pb-5 lg:pb-[80px] px-8 lg:px-0">
-      <h2 className="section-headers text-center">Simple, Affordable and Transprent Pricing</h2>
+      <h2 className="section-headers text-center mt-10">Simple, Affordable and Transprent Pricing</h2>
       <span className="block text-center text-[#6e6e6e]">You can cancel anytime</span>
         <div className="flex items-center justify-center my-10 bg-[#fbfbfb] border max-w-[200px] mx-auto rounded-full relative">
           <span className="text-[#6e6e6e] absolute -right-20 rotate-12 -top-3">save 60%</span>
