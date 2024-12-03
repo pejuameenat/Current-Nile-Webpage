@@ -52,7 +52,7 @@ const Nav = () => {
                           "navLink font-medium p-1 text-pry3 hover:bg-primary hover:text-pry2 transitions rounded-md"
                         }
                       >{
-                          index === 2 ? <NavLink to={url} target="_blank" rel='noopener noreferrer'>{text}</NavLink> : <NavLink to={url}
+                          index === 1 ? <NavLink to={url} target="_blank" rel='noopener noreferrer'>{text}</NavLink> : <NavLink to={url}
                           >{text}</NavLink>
                       }
                       </li>
