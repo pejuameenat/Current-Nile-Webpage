@@ -4,7 +4,7 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
   const { monthlyPrice } = useSelector((store) => store.plans);
   return (
     <article
-      className="shadow-lg rounded-2xl px-12 py-14 "
+      className="shadow-lg rounded-2x px-4 lg:px-12 py-14"
       key={id}
     >
       <div className="mb-4">
@@ -31,7 +31,7 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
           <Pricing key={plan.id} {...plan} />
         ))}
       </div>
-      <button type="button" className='bg-primary mx-auto block w-[344px] mt-10 p-2 text-pry1 rounded-lg hover:bg-black transitions'>{id!==4? "Start For Free":"Enquire Now"}
+      <button type="button" className='bg-primary mx-auto block  w-[200px] lg:w-[344px] mt-10 p-2 text-pry1 rounded-lg hover:bg-black transitions'>{id!==4? "Start For Free":"Enquire Now"}
         <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer"></a>
       </button>
     </article>

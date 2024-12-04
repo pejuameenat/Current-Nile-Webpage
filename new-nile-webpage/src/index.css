@@ -26,7 +26,7 @@ body{
     @apply text-primary font-semibold;
   }
   .section-headers{
-    @apply font-semibold text-[40px] leading-[48px] my-2
+    @apply font-semibold text-3xl lg:text-[40px] lg:leading-[48px] my-2
   }
   .section-header-container{
     @apply max-w-[900px] mx-auto text-center

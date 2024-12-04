@@ -22,7 +22,7 @@ const OurTeam = () => {
                     loading="lazy"
                   />
                   <div className="">
-                    <h4 className="text-[24px] md:text-[32px]">{name}</h4>
+                    <h4 className="text-[24px] lg:text-[32px]">{name}</h4>
                     <span className="mt-2">{position}</span>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ const OurTeam = () => {
           })}
         </article>
         <div
-          className="bg-[#FBFBFB] p-4 rounded-lg w-[634px] mx-auto mt-[35px] mb-14 shadow-md shadow-pry2
+          className="bg-[#FBFBFB] p-4 rounded-lg lg:max-w-[634px] mx-auto mt-[35px] mb-14 shadow-md shadow-pry2
 ]"
         >
           <div className="flex gap-2">

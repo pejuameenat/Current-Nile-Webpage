@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black w-full">
       <div className="py-14 mx-auto">
         <Link to="/">
-          <img src={nilewhite} alt="" className="block mx-auto w-[150px]"  />
+          <img src={nilewhite} alt="" className="block mx-auto w-[130px]"  />
         </Link>
         <div className="mt-8 flex mx-auto md:w-[546px]">
           {socialIcons.map((item) => (

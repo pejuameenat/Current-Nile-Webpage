@@ -7,7 +7,7 @@ const PricingPage = () => {
   const dispatch = useDispatch();
   return (
     <>
-    <section  id="pricingSection"className="pb-5 lg:pb-[80px] px-8 lg:px-0">
+    <section  id="pricingSection" className="pb-5 lg:pb-[80px] px-4 lg:px-0">
       <h2 className="section-headers text-center mt-10">Simple, Affordable and Transprent Pricing</h2>
       <span className="block text-center text-[#6e6e6e]">You can cancel anytime</span>
         <div className="flex items-center justify-center my-10 bg-[#fbfbfb] border max-w-[200px] mx-auto rounded-full relative">
@@ -17,11 +17,11 @@ const PricingPage = () => {
         <button type="button" className=" text-[#6e6e6e] font-bold rounded-full w-32 py-3 hover:text-primary" onClick={()=>{dispatch(setMonthlyPrice(false))}}>Annual</button>
       </div>
       {/* render a plan for each plan */}
-      <div className="grid md:grid-cols-2  gap-10 max-w-[1047px] mx-auto">
-        {plans.map((item, i) => (
+      <div className="grid md:grid-cols-2 gap-10 lg:max-w-[1047px] mx-auto">
+         {plans.map((item, i) => (
           <PricingPlan key={item.id} {...item} {...pricing[i]}/>
-        ))}
-      </div>
+        ))} 
+      </div> 
     </section>
     <Footer/>
     </>
