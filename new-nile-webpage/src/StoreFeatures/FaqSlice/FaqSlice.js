@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit";
 
 const initialState = {
-    isShow: false,
+    isOpen: {id:false},
     currentElement: 0
 };
 
@@ -9,18 +9,13 @@ const faqSlice = createSlice({
   name: "faq",
   initialState,
   reducers: {
-      toggleFAQ: (state, action) => {
-        if (state.currentElement === action.payload) {
-          // If the same FAQ is clicked, toggle the visibility
-          state.show = !state.show;
-        } else {
-          // If a new FAQ is clicked, show the answer and set it as the current element
-          state.currentElement = action.payload;
-          state.show = true;
-        }
+    toggleFaq: (state, action) => {
+      const id = action.payload;
+      state.isOpen[id] = !state.isOpen[id]; // Toggle the visibility
+    },
       },
-  },
+
 });
 
-export const { toggleFAQ } = faqSlice.actions
+export const { toggleFaq } = faqSlice.actions
  export default faqSlice.reducer
