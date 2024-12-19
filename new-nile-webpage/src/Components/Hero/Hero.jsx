@@ -1,10 +1,10 @@
 import { hero, joinOthers } from "../../assets";
 const Hero = () => {
   return (
-    <section id="hero" className="px-4 py-6 md:py-0 md:px-0 md:my-[72px]">
-      <div className="container lg:w-[85%] max-w-[1311px] mx-auto lg:flex items-start
+    <section id="hero" className="px-4 py-6 md:py-0 lg:px-0 md:my-[72px]">
+      <div className="container lg:w-[85%] max-w-[1311px] mx-auto md:flex items-start
       ">
-        <div className="md:w-[47%]">
+        <div className="lg:w-[47%]">
           <h1 className="text-[40px] md:text-[48px] leading-[56px] text-pry3 font-semibold">
             Automate Inventory, Cash Flow And Sales With Ease.
           </h1>

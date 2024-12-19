@@ -19,7 +19,7 @@ const Testimonies = () => {
                   loading="lazy"
                   className="w-12 h-12 rounded-full"
                 />
-                <h4 className="font-bold">{item.name}</h4>
+                <h4 className="font-bold text-sm lg:text-[16px]">{item.name}</h4>
               </div>
               <p className="text-md">{item.text}</p>
             </div>

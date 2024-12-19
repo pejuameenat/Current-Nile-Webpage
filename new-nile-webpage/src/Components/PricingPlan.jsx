@@ -31,8 +31,8 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
           <Pricing key={plan.id} {...plan} />
         ))}
       </div>
-      <button type="button" className='bg-primary mx-auto block  w-[200px] lg:w-[344px] mt-10 p-2 text-pry1 rounded-lg hover:bg-black transitions'>{id!==4? "Start For Free":"Enquire Now"}
-        <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer"></a>
+      <button type="button" className='bg-primary mx-auto block w-[200px] lg:w-[344px] mt-10 p-2 text-pry1 rounded-lg hover:bg-black transitions'> 
+        <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer">{id!==4? "Start For Free":"Enquire Now"}</a>
       </button>
     </article>
   );

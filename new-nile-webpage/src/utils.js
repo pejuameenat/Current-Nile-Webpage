@@ -257,24 +257,24 @@ export const plans = [
   {
     id: 2,
     head: "Pro Plan",
-    monthly: 15000,
+    monthly: '4,500',
     yearly: 55000,
     text: `Everything in freemium plan plus:`
    
   },
-  {
-    id: 3,
-    head: "Premium Plan",
-    monthly: 25000,
-    yearly: 55000,
-    text: "Everything in pro plan plus:",
-  },{
-    id: 4,
-    head: "Enterprise Plan",
-    monthly: 'Custom Price',
-    yearly: "Custom Price",
-    text: "Everything in premium plan plus:",
-  },
+  // {
+  //   id: 3,
+  //   head: "Premium Plan",
+  //   monthly: 25000,
+  //   yearly: 55000,
+  //   text: "Everything in pro plan plus:",
+  // },{
+  //   id: 4,
+  //   head: "Enterprise Plan",
+  //   monthly: 'Custom Price',
+  //   yearly: "Custom Price",
+  //   text: "Everything in premium plan plus:",
+  // },
 ];
 export const pricing = [
   {
