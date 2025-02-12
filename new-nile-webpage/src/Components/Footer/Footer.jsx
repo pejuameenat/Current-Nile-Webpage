@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { nilewhite } from "../../assets";
 const Footer = () => {
   return (
-    <footer className="bg-black w-full">
+    <footer className="bg-black w-full ">
       <div className="py-14 mx-auto">
         <Link to="/">
           <img src={nilewhite} alt="" className="block mx-auto w-[130px]"  />
