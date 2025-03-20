@@ -2,7 +2,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { openNavbar, closeNavbar } from "../../StoreFeatures/Modal/ModalSlice";
 import { nileLogo, menu, close } from "../../assets";
 import { navLinksItem } from "../../utils";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+ 
 // import { SocialIcons } from "../components";
 const Nav = () => {
   const { isOpen, currentElement } = useSelector((store) => store.modal);
@@ -18,9 +19,9 @@ const Nav = () => {
     >
       <div className="text-primary w-[85%] max-w-[1100px] mx-auto">
         <div className="flex justify-between lg:gap-24 items-center py-3">
-          <NavLink to="/" id="home">
+          <Link to="/" id="home">
             <img src={nileLogo} alt="nile-logo" className="logo-width  " />
-          </NavLink>
+          </Link>
           {/* Hamburger menu for mobile */}
           <button
             className="text-primary text-3xl lg:hidden"
@@ -73,12 +74,15 @@ const Nav = () => {
 
           {/* Mobile Menu*/}
           <div
-            className={`fixed top-0 right-0 bottom-0 w-80 h-screen bg-pry1 z-50 transform ${
+            className={`fixed top-0 right-0 bottom-0 w-[95%] h-screen bg-pry1 z-50 transform ${
               isOpen ? "translate-x-0" : "translate-x-full"
             } transition-transform duration-300 ease-in-out lg:hidden`}
           >
             {/* Close button */}
-            <div className="flex justify-end p-4">
+            <div className="flex justify-between items-center p-4">
+              <NavLink to='/'>
+              <img src={nileLogo} alt=""  className="logo-width"/>
+            </NavLink>
               <button
                 className="text-gray-600 text-3xl"
                 onClick={() => dispatch(closeNavbar())}
@@ -88,7 +92,7 @@ const Nav = () => {
             </div>
 
             {/* Mobile Nav Links */}
-            <nav className="flex flex-col px-3 gap-4">
+            <nav className="flex flex-col px-3 gap-4 mt-4">
               {navLinksItem.map((item) => {
                 const { id, url, text } = item;
                 return (

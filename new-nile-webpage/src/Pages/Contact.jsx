@@ -2,12 +2,14 @@ import { Footer, ContactWay} from "../Components";
 import { contacts } from "../utils";
 import { setFormMessage } from "../StoreFeatures/FormSlice/FormSlice";
 import { useSelector, useDispatch } from "react-redux";
+// import { useForm } from "react-hook-form";
+// import emailjs from "emailjs-com";
+// import { toast } from "react-toastify";
 const ContactPage = () => {
   const { formErrorMessage } = useSelector((store) => store.form);
   const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target);
     const formData = new FormData(e.target);
     const name = formData.get("name");
     console.log(name);

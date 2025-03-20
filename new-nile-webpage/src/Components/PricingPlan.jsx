@@ -16,7 +16,6 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
             <strong className="text-pry3 text-3xl font-normal">
               &#8358;{monthly}
             </strong>{id!==4?"/Month": ''}
-          
           </span>
         ) : (
           <span className="block text-myCustomColor-secondary">
@@ -26,7 +25,7 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
         <p className="text-[#6e6e6e] font-medium text-xl pt-4">{text}</p>
       </div>
       {/* Pricing */}
-      <div className="#">
+      <div className="">
         {textArray.map((plan) => (
           <Pricing key={plan.id} {...plan} />
         ))}

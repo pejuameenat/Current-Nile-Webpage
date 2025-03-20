@@ -10,7 +10,7 @@ const Aboutus = () => {
           md:w-[600px]  
           "
           >
-            <h2 className="text-[40px] font-semibold">
+            <h2 className="text-[34px] font-semibold">
               Sell anywhere easily, quickly, and seamlessly.
             </h2>
             <span className="mt-6  text-primary font-semibold">TRY NILE TODAY</span>

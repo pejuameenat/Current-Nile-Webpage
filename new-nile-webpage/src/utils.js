@@ -286,28 +286,28 @@ export const pricing = [
       },
       {
         id: 2,
-        text: "Maintain records of up to 50 contacts.",
+        text: " Store and maintain up to 50 customer or supplier records",
       },
        
       {
         id: 3,
-        text: "Process and monitor up to 50 monthly orders.",
+        text: "Process and monitor up to 50 orders per month.",
       },
       {
         id: 4,
-        text: "Monitor expenses and revenues",
+        text: "Track expenses and revenue in one place",
       },
       {
         id: 5,
-        text: "Access simplified performance metrics.",
+        text: "Access simplified performance insights to understand your business."
       },
       {
         id: 6,
-        text: "Generate basic monthly summaries",
+        text: " Generate basic monthly summaries for a quick financial snapshot",
       },
       {
         id: 7,
-        text: "Feature your business on Nile’s website directory.",
+        text: " Feature your business on Nile’s website directory for added visibility",
       },
     ],
   },
@@ -316,40 +316,37 @@ export const pricing = [
     textArray: [
       {
         id: 1,
-        text: "Unlimited Product and Customer Records: Scale without limits",
+        text: " Unlimited products and customer records with no limits on growth",
       },
       {
         id: 2,
         title:'Pro Plan',
-        text: "Advanced Analytics: Gain deeper insights into trends and sales.",
+        text: " Advanced analytics for deeper insights into trends, sales, and performance",
       },
       {
         id: 3,
-        text: "Generate professional invoices in seconds",
+        text: "Professional invoices generated and sent instantly",
       },
       {
         id: 4,
-        text: "Track and monitor team performance",
+        text: " Team performance tracking to monitor sales, productivity, and efficiency",
       },
       {
         id: 5,
-        text: "Cash Flow and Financial Reports: Detailed monthly breakdowns",
+        text: " Cash flow and financial reports to stay on top of income, expenses, and profitability",
       },
       {
         id: 6,
-        text: "Build a professional website that links seamlessly to your custom domain.",
+        text: " Seamless website integration to build a professional website with a custom domain or connect an existing site"
       },
       {
         id: 7,
-        text: "Easily connect your existing site for seamless management.",
+        text: " Multi-user access with the ability to add up to 3 team members for streamlined collaboration",
       },
+      
       {
         id: 8,
-        text: "Multi-User Accounts: Grant access to up to 3 team members.",
-      },
-      {
-        id: 9,
-        text: "Priority Support: Response time within 24 hours.",
+        text: "Priority support with responses within 24 hours for any inquiries or issues",
       },
     ],
   },
