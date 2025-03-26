@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   isOpen: false,
   currentElement: null,
+  dropdownOpen:false  // dropdown
 };
 const modalSlice = createSlice({
   name: "modal",
@@ -16,9 +17,11 @@ const modalSlice = createSlice({
     updateCurrentElement: (state, action) => {
       state.currentElement = action.payload;
     },
+    toggleDropdown: (state) => {
+      state.dropdownOpen= !state.dropdownOpen
+    }
   },
 });
 
-export const { openNavbar, closeNavbar, updateCurrentElement, setIsActive } =
-  modalSlice.actions;
+export const { openNavbar, closeNavbar, updateCurrentElement, toggleDropdown } =modalSlice.actions;
 export default modalSlice.reducer;

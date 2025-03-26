@@ -24,7 +24,7 @@ import {
   rachaelImg,
   you,
   danielImg, plusIcon,
-  location,stephen,donBaci,tadFarm, wuraola, hashim,ali,aminatImg
+  location,stephen,donBaci,tadFarm, wuraola, hashim,aminatImg
 } from "./assets";
 
 
@@ -32,7 +32,7 @@ export const navLinksItem = [
   
   // { id: 0, text: "Home", url: "/",   },
   { id: 1, text: "About us", url: "/about",  },
-  { id: 2, text: "Blog", url: "https://nile.ng/blog/",   },
+  { id: 2, text: "Resources", url: "https://nile.ng/blog/",   },
   { id: 3, text: "Pricing", url: "/pricing" },
   { id: 4, text: "Contact us", url: "/contact",  },
 ]
@@ -164,12 +164,7 @@ export const teams = [
   { id: 1, name: "Daniel Owodunni", position: "CTO", img: danielImg },
   { id: 2, name: "Abdulkadir Balogun", position: "COO", img: balogunImg },
   { id: 3, name: "Racheal Agu", position: "Product Officer", img: rachaelImg },
-  // {
-  //   id: 4,
-  //   name: "Ali Muhammed S.",
-  //   position: "Frontend Developer",
-  //   img: ali,
-  // },
+   
   {
     id: 4,
     name: "Aminat Sulaimon",
