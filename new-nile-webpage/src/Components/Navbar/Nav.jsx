@@ -80,16 +80,17 @@ const Nav = () => {
                               }`}
                             >
                               <NavLink
-                                to={url}
+                                to='https://nile.ng/blog/'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=" text-black block hover:bg-zinc-200 p-2"
                               >
                                 Blog
                               </NavLink>
-                              {/* <NavLink className="text-black block hover:bg-zinc-200 p-2">
+                               <NavLink to='https://nile.ng/hardware'   target="_blank"
+                                rel="noopener noreferrer" className="text-black block hover:bg-zinc-200 p-2">
                                 Hardware
-                              </NavLink> */}
+                              </NavLink>
                             </div>
                           </li>
                         ) : (
@@ -165,16 +166,17 @@ const Nav = () => {
                               }`}
                             >
                               <NavLink
-                                to={url}
+                                to='https://nile.ng/blog/'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className=" text-black block hover:bg-zinc-200 p-2"
                               >
                                 Blog
                               </NavLink>
-                              {/* <NavLink className="text-black block hover:bg-zinc-200 p-2">
+                               <NavLink  to='https://nile.ng/hardware' target="_blank"
+                                rel="noopener noreferrer"className="text-black block hover:bg-zinc-200 p-2">
                                 Hardware
-                              </NavLink> */}
+                              </NavLink> 
                             </div>
                           </li>: <a href={url} className=" text-primary">
                       {text}

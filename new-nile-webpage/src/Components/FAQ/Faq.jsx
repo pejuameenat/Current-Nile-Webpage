@@ -29,7 +29,7 @@ const Faq = () => {
                 </div>
                   <img
                     src={openFaq ? `${minusIcon}` : `${icon}`}
-                    className="w-10 h-10"
+                    className="w-10 h-10 cursor-pointer" 
                     alt=""
                     onClick={()=>handleShow(id)}
                   />

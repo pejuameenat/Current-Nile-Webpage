@@ -1,28 +1,27 @@
-import { Pricing } from ".";
+import { Pricing } from "../Components";
 import { useSelector } from "react-redux";
-const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
+const PricingPlan = ({ id, head, monthly, yearly, textArray }) => {
   const { monthlyPrice } = useSelector((store) => store.plans);
   return (
     <article
-      className="shadow-lg rounded-2x px-4 lg:px-12 py-14"
+      className={`${id!==2?'bg-pry1 text-myCustomColor-secondary':'bg-primary text-pry1'} relative rounded-2xl px-4 lg:px-6 py-14 border  `}
       key={id}
     >
       <div className="mb-4">
-        <h4 className="text-[#6e6e6e] mb-2 text-2xl">
+        <h4 className="mb-2 text-2xl">
           {head}
         </h4>
         {monthlyPrice ? (
-          <span className="block text-myCustomColor-secondary ">
-            <strong className="text-pry3 text-3xl font-normal">
-              &#8358;{monthly}
+          <span className="block   ">
+            <strong className={`${id!==2?'text-pry3':'text-pry1'} text-7xl font-normal`}>
+              {monthly}
             </strong>{id!==4?"/Month": ''}
           </span>
         ) : (
-          <span className="block text-myCustomColor-secondary">
-            <strong className="text-pry3 text-3xl font-normal">&#8358;{yearly}</strong>{id!==4?"/Year ":''}
+          <span className="block">
+            <strong className={`${id!==2?'text-pry3':'text-pry1'}  text-7xl font-normal`}>&#8358;{yearly}</strong>{id!==4?"/Year ":''}
           </span>
         )}
-        <p className="text-[#6e6e6e] font-medium text-xl pt-4">{text}</p>
       </div>
       {/* Pricing */}
       <div className="">
@@ -30,7 +29,7 @@ const PricingPlan = ({ id, head, monthly, yearly, text, textArray }) => {
           <Pricing key={plan.id} {...plan} />
         ))}
       </div>
-      <button type="button" className='bg-primary mx-auto block w-[200px] lg:w-[344px] mt-10 p-2 text-pry1 rounded-lg hover:bg-black transitions'> 
+      <button type="button" className={`${id!==2?'bg-primary text-pry1':'bg-pry1 text-primary hover:text-pry1'}  mx-auto block w-[90%] mt-10 p-2 rounded-lg hover:bg-black transitions absolute bottom-3 left-0 right-0`}> 
         <a href="https://app.nile.ng/" target="_blank" rel="noopener noreferrer">{id!==4? "Start For Free":"Enquire Now"}</a>
       </button>
     </article>
