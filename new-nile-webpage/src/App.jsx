@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HomeNav, Home, About, Contact, PricingPage } from './Pages'
+import { HomeNav, Home, About, Contact, PricingPage, Terms } from './Pages'
 const routes = createBrowserRouter([{
   path: "/", element: <HomeNav />, children: [
     {index:true, element:<Home/>},
@@ -16,6 +16,10 @@ const routes = createBrowserRouter([{
     {
       path: 'Contact',
       element:<Contact/>
+    },
+    {
+      path: 'Terms',
+      element:<Terms/>
     }
   ]
   

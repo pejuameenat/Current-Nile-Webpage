@@ -8,12 +8,12 @@ const PricingPlan = ({ id, head, monthly, yearly, textArray }) => {
       key={id}
     >
       <div className="mb-4">
-        <h4 className="mb-2 text-2xl">
+        <h4 className="mb-2 text-xl md:text-2xl">
           {head}
         </h4>
         {monthlyPrice ? (
           <span className="block   ">
-            <strong className={`${id!==2?'text-pry3':'text-pry1'} text-7xl font-normal`}>
+            <strong className={`${id!==2?'text-pry3':'text-pry1'} text-xl md:text-6xl font-normal`}>
               {monthly}
             </strong>{id!==4?"/Month": ''}
           </span>
